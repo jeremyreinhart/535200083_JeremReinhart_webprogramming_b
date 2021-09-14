@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>querySelector() Demo</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="logo" id="logo">
+        </div>
+        <nav class="primary-nav">
+            <ul>
+                <li class="menu-item current"><a href="#home">Home</a></li>
+                <li class="menu-item"><a href="#services" target="_blank_">Services</a></li>
+                <li class="menu-item"><a href="#about">About</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to the JS Dev Agency</h1>
+
+        <div class="container">
+            <section class="section-a">
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates 
+                    incidunt temporibus cupiditate deleniti veniam sequi, similique officiis animi quas fugit labore quae aut. 
+                    Praesentium ratione exercitationem quam at asperiores qui!</p>
+                <button>Read More</button>
+            </section>
+            <section class="section-b">
+                <h2>PWA Development</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam 
+                    ducimus quo rem assumenda nemo similique consectetur iusto impedit asperiores labore sed quis, 
+                    sit earum minima nesciunt dolor est vitae repellendus!</p>
+                <button>Read More</button>
+            </section>
+            <section class="section-c">
+                <h2>Mobile App Dev</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi eos 
+                    maiores quis dolore reiciendis beatae doloribus ut quas reprehenderit mollitia, sequi cum 
+                    ipsa aut temporibus voluptatum earum nulla voluptates ducimus.</p>
+                <button>Read More</button>
+            </section>
+        </div>
+    </main>
+    <br>
+    <button onclick="myUniversal()">Universal Selector</button>
+    <button onclick="myType()">Type Selector</button>    
+    <button onclick="myClass()">Class Selector</button>    
+    <button onclick="myId()">Id Selector</button>    
+    <button onclick="myAttribute()">Attribute Selector</button>    
+    <button onclick="myGroup()">Group Selector</button>
+    <script src="js/main.js"></script>    
+</body>
+</html>
